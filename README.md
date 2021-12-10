@@ -3,7 +3,7 @@
 
 | Project | Link |
 | ------ | ------ |
-| Website |  https://fusion-page1.netlify.app/home
+| Website |  https://fusion-page1.netlify.app/
 | Video Demo | https://drive.google.com/file/d/12Vocf56AdTD0L0XbPyrESkuluYUXVTXp/view?usp=sharing
 
 ---
