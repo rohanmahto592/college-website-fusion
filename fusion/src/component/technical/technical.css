@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:700');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+.containersss1{
+  
+    padding:0 6%;
+    width:80%;
+    margin: 5px !important;
+
+
+}
+.infoCardsss23{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    box-shadow: 1px 1px 1px 1px #10a8c3;
+    
+  }
+.containersss2{
+  
+    padding:10% 10%;
+    width:80%;
+   
+
+
+}
+
+#AlertDiv {
+    position:absolute;
+    height: 51px;
+    left: 45vw;
+    top: 12vh;
+    width: 9vw;
+    padding-top: 1.5%;
+    background-color:black;
+    color:white;
+    
+}
+@media (min-width: 780px)
+{
+    #AlertDiv{
+    position:absolute;
+    height: 51px;
+    left: 45vw;
+    top: 10vh;
+    width: 9vw;
+    background-color:black;
+    color:white;
+    }
+}
+@media (width: 800px)
+{
+    #AlertDiv{
+    position:absolute;
+    height: 51px;
+    left: 45vw;
+    padding-top: 13px!important;
+    padding-bottom: 10px!important;
+    top: 3.5vh!important;
+    width: 9vw;
+    background-color:black;
+    color:white;
+    }
+}
+@media (max-width: 600px)
+{
+    #AlertDiv {
+        position:relative;
+        height:6vh;
+        
+       
+        top: 1vh;
+        width: 5vw;
+        background-color:black;
+       
+        color:white;
+    }
+    
+
+}
+
+#AlertDiv h1{
+    margin:auto;
+    vertical-align:middle;
+    color:#10a8c3;
+    font-size: 40px;
+}
+.containersss2{
+  
+    
+    
+    width:80%;
+    
+    
+
+
+}
+.infoCardsss1{
+    display:flex;
+    flex-direction:column;
+    text-align:center,
+  }
+  .image2907 {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    
+    -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+    
+    transform-origin:center;
+    transform:perspective(800px) rotateY(25deg);
+    transition:0.5s;
+  }
+  .container2907 {
+    max-width:900px;
+    max-height:350px;
+    /* box-shadow: 1px 1px 1px  #10a8c3; */
+    
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    
+  }
+  .container2907:hover .image2907 {
+    opacity:0.3;
+  }
+  .container2907 .image2907:hover {
+    transform:perspective(800px)       rotateY(0deg);
+    opacity:1;
+  }
